@@ -17,7 +17,7 @@ except ImportError:
     pass
 
 from docutils.core import publish_cmdline, default_description
-from recommonmark.parser import CommonMarkParser
+from sphinx_markdown_parser.parser import CommonMarkParser
 
 
 def cm2html():

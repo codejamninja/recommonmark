@@ -27,7 +27,7 @@ Then add this to your Sphinx conf.py:
 
 ```
 # for MarkdownParser
-from recommonmark.parser import MarkdownParser
+from sphinx_markdown_parser.parser import MarkdownParser
 
 source_parsers = {
     '.md': MarkdownParser,
